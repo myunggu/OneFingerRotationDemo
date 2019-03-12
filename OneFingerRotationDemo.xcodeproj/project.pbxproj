@@ -12,6 +12,7 @@
 		6900DBE6223750C1003AE03C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6900DBE4223750C1003AE03C /* Main.storyboard */; };
 		6900DBE8223750C2003AE03C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6900DBE7223750C2003AE03C /* Assets.xcassets */; };
 		6900DBEB223750C2003AE03C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6900DBE9223750C2003AE03C /* LaunchScreen.storyboard */; };
+		6900DBF3223750F6003AE03C /* Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 6900DBF2223750F5003AE03C /* Button.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		6900DBE7223750C2003AE03C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6900DBEA223750C2003AE03C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6900DBEC223750C2003AE03C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6900DBF2223750F5003AE03C /* Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				6900DBE7223750C2003AE03C /* Assets.xcassets */,
 				6900DBE9223750C2003AE03C /* LaunchScreen.storyboard */,
 				6900DBEC223750C2003AE03C /* Info.plist */,
+				6900DBF2223750F5003AE03C /* Button.png */,
 			);
 			path = OneFingerRotationDemo;
 			sourceTree = "<group>";
@@ -123,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6900DBEB223750C2003AE03C /* LaunchScreen.storyboard in Resources */,
+				6900DBF3223750F6003AE03C /* Button.png in Resources */,
 				6900DBE8223750C2003AE03C /* Assets.xcassets in Resources */,
 				6900DBE6223750C1003AE03C /* Main.storyboard in Resources */,
 			);
@@ -283,8 +287,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TRTQ52RVZA;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = OneFingerRotationDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,7 +297,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = lab.myunggu.OneFingerRotationDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -301,8 +306,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TRTQ52RVZA;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = OneFingerRotationDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = lab.myunggu.OneFingerRotationDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
